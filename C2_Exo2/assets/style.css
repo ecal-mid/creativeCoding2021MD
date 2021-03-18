@@ -1,0 +1,9 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+#text {
+  font-size: 50px;
+  line-height: 200px;
+}
