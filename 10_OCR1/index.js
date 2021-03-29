@@ -11,7 +11,7 @@ function setup() {
   textSize(24);
   canvas.drop((file)=> {
     sendImage(file, getResult);
-    img = createImg(originalFile.data, '').hide();
+    img = createImg(file.data, '').hide();
   });
 }
 // P5JS Draw
